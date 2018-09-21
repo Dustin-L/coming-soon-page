@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #fff;
+  --font-primary: "Merriweather Sans";
+}
+
+html {
+  background-color: #1c1c1c;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.secondary {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.primary {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+
+.yellow {
+  color: #ffe47a;
+  text-decoration: none;
+}
+
+.blue {
+  color: #77e3ff;
+  text-decoration: none;
+}
+
+.red {
+  color: #ff7777;
+  text-decoration: none;
+}
